@@ -14,10 +14,13 @@ public class Concatenation {
         int series = 5;
         boolean isReleased = true;
         System.out.println(movieName + series);
-        System.out.println("" + series + isReleased);
 
         // .concat() method
         movieName.concat(sentence);
-        System.out.println(movieName.concat(isReleased +""));
+        System.out.println(movieName.concat(isReleased + ""));
+
+        String firstName = "John ";
+        String lastName = "Doe";
+        System.out.println(firstName.concat(lastName));
     }
 }
